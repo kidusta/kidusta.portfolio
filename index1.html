@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link href="https://fonts.googleapis.com/css?family=Philosopher:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    body {
+      font-family: worksans-extralight,work sans,sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: rgb(255, 255, 255);
+      /* background-image: url("bgi3.jpg"); */
+      color: #41df1d;
+      /* blur background picture
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center; */
+     
+
+
+    }
+    .intro {
+      background-color: #000000;
+      padding: 50px;
+      text-align: center;
+      opacity: 0.9;
+    }
+    .about-me {
+      padding: 50px;
+      color: #000000;
+    }
+    .skills {
+      padding: 50px;
+      border-radius: 20px;
+      color: #000000;
+    }
+    .projects {
+      padding: 50px;
+      opacity: 0.9;
+    }
+    .project-card {
+      color: #000000;
+      padding: 20px;
+      margin-bottom: 30px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+    .project-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    }
+    .contact {
+      padding: 50px;
+      color: #28373b;
+      opacity: 0.9;
+    }
+    .contact-info {
+      display: flex;
+      align-items: center;
+    }
+    .contact-info img {
+      width: 20px;
+      margin-right: 10px;
+    }
+    .navbar {
+      background-color: #225db0;
+      padding: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      opacity: 0.8;
+    }
+    .footer{
+      background-color: #000000;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark  sticky-top">
+    <a class="navbar-brand" href="#intro">Home</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="container-fluid">
+    <div id="intro" class="intro">
+      <h1>Hi, I'm Kidus.</h1>
+    </div>
+
+    <div class="row">
+      <div id="about" class="col-lg-6 col-md-6 about-me mx-3 my-lg-3 my-sm-3">
+        <h2><span style="background-color: #fff; padding: 5px;">About Me</span></h2>
+        <p>I am a computer science student at ACT College, pursuing my passion for computer science. I am interested by the ever-evolving world of technology and enjoy exploring various programming languages and problem-solving techniques.</p>      </div>
+      <div class="col-md-4 text-center">
+        <img src="man.png" alt="Profile Picture" class="img-fluid rounded-circle mt-3 my-md-4" style="max-width: 300px;">
+      </div>
+    </div>
+    <div class="row">
+
+      <div class="col-sm-4 text-center">
+        <img src="5.jpg" alt="Profile Picture" class="img-fluid mt-5 my-md-5 my-md-3" style="max-width: 320px;">
+    
+        </div>
+    <div id="skills" class="skills col-lg-6 col-md-6 about-me mx-lg-4 my-lg-3 my-sm-3 mx-5">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Bootstrap</li>
+        <li>Responsive Web Design</li>
+        <li>Sound Design</li>
+        <li>Front-end Development</li>
+        <li>Back-end Development</li>
+        <li>Database Management</li>
+      </ul>
+    </div>
+  
+
+    
+  </div>
+
+    <div id="projects" class="projects">
+      <h2 class="my-lg-2 "><span style="background-color: #000000; padding: 5px;">PROJECTS</span></h2>
+      <div class="row">
+        <div class="col-md-4 my-lg-2 my-sm-2">
+          <div class="project-card ">
+            <h4>Dereja.com clone</h4>
+            <p>This is one of the websites I've cloned</p>
+            <a href="https://www.dereja.com/">Dereja.com</a>
+          </div>
+        </div>
+        <div class="col-md-4 my-lg-2 my-sm-2">
+          <div class="project-card">
+            <h4>HaHuJobs clone</h4>
+            <p>This is one of the websites I've cloned</p>
+            <a href="https://hahujobs.com/">HahuJobs.com</a>
+          </div>
+        </div> 
+        <div class="col-md-4 my-lg-2 my-sm-2">
+          <div class="project-card">
+            <h4>Qemer.com clone</h4>
+            <p>This is one of the websites I've cloned</p>
+            <a href="https://www.qemer.com/">Qemer.com</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="contact" class="contact">
+      <h2>Contact Me</h2>
+      <div class="contact-info">
+        <img src="phone.png" alt="Phone Logo">
+        <p>+251941972628</p>
+      </div>
+      <div class="contact-info">
+        <img src="email.png" alt="Email Logo">
+        <p>Kidustafese365@gmail.com</p>
+      </div>
+      <div class="contact-info">
+        <img src="ig.png" alt="LinkedIn Logo">
+        <p><a href="https://www.linkedin.com/">Instagram Profile</a></p>
+      </div>
+    </div>
+  </div>
+  <footer class="footer text-white text-center py-2">
+    <p>&copy; 2023 Kidus Tafese. All rights reserved.</p>
+  </footer>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
